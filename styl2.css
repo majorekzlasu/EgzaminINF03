@@ -1,0 +1,65 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+header {
+    background-color: #824555;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.panelGorny {
+    color: white;
+    padding: 20px;
+    background-color: #A26475;
+    overflow: hidden; /* Aby panele się mieściły i nie wychodziły poza kontener */
+}
+.panelpierwszy, .paneldrugi, .paneltrzeci {
+    background-color: #A26475;
+    height: 300px;
+    margin: 0;
+    float: left; /* Ustawienie każdego panelu obok siebie */
+}
+.panelpierwszy, .paneldrugi {
+    width: 30%;
+}
+.paneltrzeci {
+    width: 40%;
+    text-align: right;
+}
+.panelglowny {
+    background-color: #F0EAE2;
+    padding: 50px;
+    clear: both; /* Zapewnia, że sekcja panelglowny jest poniżej paneli */
+}
+footer {
+    background-color: #824555;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+td, th {
+    border: 2px solid #69293A;
+    padding: 7px;
+}
+table {
+    border-collapse: collapse;
+}
+select {
+    list-style-type: square;
+}
+.btn1 {
+    background-color: red;
+    width: 20px;
+    height: 20px;
+}
+.btn2 {
+    background-color: green;
+    width: 20px;
+    height: 20px;
+}
+.btn3 {
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+}
